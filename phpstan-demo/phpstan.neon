@@ -1,0 +1,5 @@
+parameters:
+    # Nivel de rigor: 0 (basico) ate 10 (maximo)
+    level: 5
+    paths:
+        - src/ComErros

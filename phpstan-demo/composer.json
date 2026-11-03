@@ -1,0 +1,19 @@
+{
+    "name": "faculdade/phpstan-demo",
+    "description": "Demonstracao simples do PHPStan com Docker e MySQL",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "analyse": "phpstan analyse --memory-limit=512M"
+    }
+}
